@@ -11,6 +11,34 @@ Tom Halliley <jthalliley@gmail.com>
    java -jar target/jth-computer-store-0.0.1-SNAPSHOT.jar sample-inventory.csv sample-order.txt
 ```
 
+## Sample Output
+
+```
+---------------------- Load ----------------------
+WARNING: Duplicate component in inventory, discarded: Component (name: Keyboard, price: $22.00, category: MISC)
+INFO: Inventory load successful with 8 components.
+INFO: Order load successful with 17 items.
+---------------------- Ordered Items ----------------------
+GenericProcessor
+GenericProcessor
+GenericProcessor
+GenericProcessor
+GenericProcessor
+Mouse
+LCD
+LCD
+LCD
+LCD
+LCD
+LCD
+Keyboard
+Keyboard
+Keyboard
+Keyboard
+Keyboard
+============================================
+Grand Total of your Order: $1,185.00
+```
 
 ## Assumptions / Choices
 

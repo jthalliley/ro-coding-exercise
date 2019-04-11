@@ -6,6 +6,8 @@ Tom Halliley <jthalliley@gmail.com>
 
 ## How to Build and Run
 
+Built using Java 8 and Maven 3.6.0.
+
 ```
    mvn clean package
    java -jar target/jth-computer-store-0.0.1-SNAPSHOT.jar sample-inventory.csv sample-order.txt
